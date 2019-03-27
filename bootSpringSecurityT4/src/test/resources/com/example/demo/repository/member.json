@@ -1,0 +1,10 @@
+{
+	"id": 0,
+	"email": "alice.dacosta@tours.fr",
+	"password": "123456",
+	"nom": "dacosta",
+	"prenom": "alice",
+	"age": 20,
+	"registeredDate": null,
+	"nomComplet": "alice dacosta"
+}
