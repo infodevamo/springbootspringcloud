@@ -1,0 +1,34 @@
+hello:
+  greeting: Hey
+  position: 1
+  style-case: A
+
+logging:
+  file: logserver-dev.log
+
+logging.level.org.springframework: DEBUG
+
+server.port: 8080
+  
+
+---
+spring:
+  profiles: hml
+  
+logging:
+  file: logserver-hml.log
+  
+logging.level.org.springframework: DEBUG
+  
+server.port: 8090
+
+---
+spring:
+  profiles: prod
+
+logging:
+  file: logserver-prd.log
+  
+logging.level.org.springframework: DEBUG
+
+server.port: 8099
